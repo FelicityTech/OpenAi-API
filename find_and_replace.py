@@ -11,4 +11,4 @@ response = client.chat.completions.create(
 )
 
 # Extract and print the response text
-print(response.choices[0].messages.content)
+print(response.choices[0].message.content)
